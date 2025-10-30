@@ -4,28 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JF Akademie</title>
-
     <style>
         body {
+            margin: 0;
             background-color: black;
             color: whitesmoke;
             font-family: Arial, Helvetica, sans-serif;
         }
 
-    .title {
-    color: white;
-    background-color: red;
-    }
-    .link {
-        color: whitesmoke;
-    }
+        .title {
+            background: linear-gradient(90deg, #ff4b5c, #ffb199); /* Farbverlauf statt reinem Rot */
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+
+        .link {
+            color: #ffb199;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .link:hover {
+            color: #ff4b5c; 
+            text-decoration: underline;
+        }
+
+        h2 {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .links-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
     </style>
 </head>
 <body>
-    <h1 class="title">JF Akademie</h1>
+    <h1 class="title">JF Akademie 🔥</h1>
     <h2>Fertige Unterseiten:</h2>
-    <a href="funkrufnamen/index.html" class="link">Funkrufnamen</a>
-    <br>
-    <a href="funkgespräch/index.html" class="link">Funkgespräch</a>
+    <div class="links-container">
+        <a href="funkrufnamen/index.html" class="link">Funkrufnamen</a>
+        <br><br>
+        <a href="funkgespräch/index.html" class="link">Funkgespräch</a>
+    </div>
 </body>
 </html>

@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JF Akademie</title>
-
-    <style>
-        body {
-            background-color: black;
-            color: whitesmoke;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-    .title {
-    color: white;
-    background-color: red;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JF Akademie</title>
+<style>
+    body {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
+    /* Header */
+    .title {
+        background: linear-gradient(90deg, #ff4b5c, #ffb199);
+        color: white;
+        padding: 40px 20px;
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
 
-    .start{
+    /* Unterüberschrift */
+    h2 {
+        margin-top: 30px;
+    }
+
+    /* Liste */
+    .list {
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+
+    /* Button als Link */
+    .start {
+        display: inline-block;
         font-size: 20px;
         border-radius: 10px;
         background-color: green;
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        margin-top: 20px;
+        transition: background-color 0.3s;
     }
-    .start:hover{
+
+    .start:hover {
         background-color: red;
     }
-    .link{
-        color: whitesmoke;
-        text-decoration: none;
-    }
-    </style>
+
+</style>
 </head>
 <body>
-    <h1 class="title">JF Akademie</h1>
+
+    <h1 class="title">JF Akademie 🔥</h1>
+
     <h2>Das Funkgespräch</h2>
-    <br>
+
     <p class="list">01 - Wie beginne ich ein Funkgespräch?</p>
     <p class="list">02 - Weiterer Ablauf eines Funkgespräches</p>
     <p class="list">03 - Regeln beim Funken</p>
-    <br>
-    <button class="start"><a class="link" href="01.html">STARTEN</a></button>
+
+    <a href="01.html" class="start">STARTEN</a>
+
 </body>
 </html>
